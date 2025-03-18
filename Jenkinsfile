@@ -4,7 +4,10 @@ pipeline {
   stage("CHeckout"){
     steps{
       
-sh "hello"
+def hello{
+sh "echo hi"
+}
+hello      
     }
   }
     
