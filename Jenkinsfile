@@ -4,7 +4,7 @@ pipeline {
   stage("CHeckout"){
     steps{
       
-  git "https://github.com/sudofaizan/jenkins_shared_lib"
+sh "hello"
     }
   }
     
